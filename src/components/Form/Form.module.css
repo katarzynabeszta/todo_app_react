@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  margin-top: 20px;
+  gap: 12px;
+}
+.form .input {
+  border-radius: 14px;
+  width: 100%;
+  padding: 8px;
+  min-width: 0;
+  border: 1px solid rgba(192, 192, 238, 0.9450980392);
+}
+.form .input:focus {
+  border: 1px solid #2575fc;
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}/*# sourceMappingURL=Form.module.css.map */

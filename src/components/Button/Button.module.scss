@@ -1,0 +1,47 @@
+.buttonBase {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  min-height: 44px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.1s ease, filter 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #2575fc;
+    outline-offset: 2px;
+  }
+}
+
+.buttonDone {
+  background: linear-gradient(135deg, #2cb67d, #1aa1a1);
+}
+
+.buttonDelete {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+.buttonAdd {
+  background: linear-gradient(135deg, #6c63ff, #4e4bcc);
+}
+
+@media (min-width: 768px) {
+  .buttonBase {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .buttonBase:hover {
+    filter: brightness(1.1);
+  }
+}

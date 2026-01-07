@@ -1,0 +1,21 @@
+.item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 16px 8px;
+  border-top: 1px solid #e0e0f0;
+
+  &:first-of-type {
+    margin-top: 16px;
+  }
+
+  .name {
+    width: 100%;
+  }
+
+  .done {
+    text-decoration: line-through;
+  }
+}

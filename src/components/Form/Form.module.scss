@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  margin-top: 20px;
+  gap: 12px;
+
+  .input {
+    border-radius: 14px;
+    width: 100%;
+    padding: 8px;
+    min-width: 0;
+    border: 1px solid #c0c0eef1;
+
+    &:focus {
+      border: 1px solid #2575fc;
+      box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+    }
+  }
+}
